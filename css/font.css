@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosansjp.css");
+@import url("https://fonts.googleapis.com/earlyaccess/hannari.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:900");
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/NotoSerifJP-Medium.woff") format("woff"), url("../fonts/NotoSerifJP-RMedium.ttf") format("truetype");
+  font-display: swap; }
+body * {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 100%;
+  color: #000; }
+
+p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000; }
+  p.serif {
+    font-size: 21px;
+    line-height: 46px;
+    font-family: 'Noto Serif Japanese',serif;
+    font-weight: 500;
+    margin: 30px 0; }
+  p.hannari {
+    font-family: 'Hannari','Noto Serif Japanese',serif;
+    font-size: 38px;
+    text-align: center;
+    line-height: 72px;
+    letter-spacing: 0.25em;
+    margin: 60px 0; }
+  p.mt00 {
+    margin-top: 0; }
+  p.mt20 {
+    margin-top: 20px; }
+  p.mt40 {
+    margin-top: 40px; }
+  p.mt60 {
+    margin-top: 60px; }
+  p.mt80 {
+    margin-top: 80px; }
+  p.mb20 {
+    margin-bottom: 20px; }
+  p.mb40 {
+    margin-bottom: 40px; }
+  p.mb60 {
+    margin-bottom: 60px; }
+  p.mb80 {
+    margin-bottom: 80px; }
+  p.up, p span.up {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px; }
+  p.ta-center {
+    text-align: center; }
+  p.min-text, p span.min-text {
+    font-size: 18px;
+    line-height: 28px; }
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+  position: relative; }
+  h4.with-icon {
+    padding: 12px 0;
+    background-image: url(../images/h4_bic.png);
+    background-repeat: no-repeat;
+    background-size: 46px;
+    background-position: center; }
+
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center; }
+
+h2 {
+  font-family: 'Lato', 'Noto Sans JP', sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 78px;
+  text-align: center;
+  margin: 40px 0; }
+  h2.no-margin {
+    margin: 0; }
+  h2 .h2-sub {
+    font-family: 'Lato', 'Noto Sans JP', sans-serif;
+    font-size: 27px;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+    line-height: 27px; }
+
+@media screen and (max-width: 767px) {
+  p {
+    font-size: 18px;
+    line-height: 32px; }
+    p.serif {
+      font-size: 18px;
+      line-height: 32px;
+      margin: 30px 0; }
+    p.hannari {
+      font-size: 27px;
+      line-height: 46px;
+      letter-spacing: 0.2em; }
+    p.up, p span.up {
+      font-size: 21px;
+      line-height: 38px; }
+    p.min-text, p span.min-text {
+      font-size: 15px;
+      line-height: 24px; }
+
+  h4 {
+    font-size: 21px;
+    line-height: 27px; }
+
+  h3 {
+    font-size: 36px;
+    line-height: 42px; }
+
+  h2 {
+    font-size: 54px;
+    line-height: 64px;
+    margin: 40px 0; }
+    h2.no-margin {
+      margin: 0; }
+    h2 .h2-sub {
+      font-size: 21px;
+      line-height: 27px; } }
+/* with icomoon*/
+@font-face {
+  font-family: 'icomoon';
+  src: url("../font/icomoon.eot?8s763o");
+  src: url("../font/icomoon.eot?8s763o#iefix") format("embedded-opentype"), url("../font/icomoon.ttf?8s763o") format("truetype"), url("../font/icomoon.woff?8s763o") format("woff"), url("../font/icomoon.svg?8s763o#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-close:before {
+  content: "\e900"; }
+
+.icon-facebook:before {
+  content: "\e901"; }
+
+.icon-line:before {
+  content: "\e902"; }
+
+.icon-root:before {
+  content: "\e903"; }
+
+.icon-twitter:before {
+  content: "\e904"; }
+
+/*# sourceMappingURL=font.css.map */
+
+/*# sourceMappingURL=font.css.map */

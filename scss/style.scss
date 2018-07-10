@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+    body{
+    width:500px;
+    margin: auto;
+    }
+
+    p {
+    img {width: 400px;
+        height: auto;}
+        margin:20px auto 0;
+    }
+
+    .showbox {
+       display: inline-block;
+    }
+    .showbox p {
+       text-align: center;
+    }
+    .showbox img {
+       border: 2px solid #666;
+       box-shadow:2px #666;
+    }
