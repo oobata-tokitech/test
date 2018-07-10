@@ -1,23 +1,23 @@
-@charset "UTF-8";
+body{
+width:600px;
+margin:auto;
+}
 
-    body{
-    width:500px;
-    margin: auto;
-    }
+p{
+oveflow: hidden;
+}
 
-    p {
-    img {width: 400px;
-        height: auto;}
-        margin:20px auto 0;
-    }
+img{
+width:400px;
+height:200px;
+}
 
-    .showbox {
-       display: inline-block;
-    }
-    .showbox p {
-       text-align: center;
-    }
-    .showbox img {
-       border: 2px solid #666;
-       box-shadow:2px #666;
-    }
+.showbox {
+   display: inline-block;
+}
+.showbox p {
+   text-align: center;
+}
+.showbox img {
+   border: 2px solid skyblue;
+}

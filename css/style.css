@@ -1,12 +1,13 @@
 body {
-  width: 500px;
+  width: 600px;
   margin: auto; }
 
 p {
-  margin: 20px auto 0; }
-  p img {
-    width: 400px;
-    height: auto; }
+  oveflow: hidden; }
+
+img {
+  width: 400px;
+  height: 200px; }
 
 .showbox {
   display: inline-block; }
@@ -15,7 +16,6 @@ p {
   text-align: center; }
 
 .showbox img {
-  border: 2px solid #666;
-  box-shadow: 2px #666; }
+  border: 2px solid skyblue; }
 
 /*# sourceMappingURL=style.css.map */
